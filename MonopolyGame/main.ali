@@ -1,0 +1,205 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		265b8724 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-calend.ads		20210601075304 b288ede8 ada.calendar%s
+D a-caldel.ads		20210601075304 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-inteio.ads		20210601075304 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210601075304 bb51c45a ada.numerics%s
+D a-nudira.ads		20210601075304 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20210601075304 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiinio.ads		20210601075304 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D main.adb		20220815183930 29e8e035 main%b
+D system.ads		20210601075304 4635ec04 system%s
+D s-conca2.ads		20210601075304 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210601075304 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-imgint.ads		20210601075304 02dbe0c2 system.img_int%s
+D s-imguns.ads		20210601075304 9ff43cf7 system.img_uns%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-rannum.ads		20210601075304 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20210601075304 20ba1217 system.random_numbers%b
+D s-ransee.ads		20210601075304 01a57b33 system.random_seed%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-valint.ads		20210601075304 48a52a3f system.val_int%s
+D s-valuns.ads		20210601075304 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 17|2r6 2r31 3r6 3r31 4r6 115r33
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 17|2w10 2r35
+X 7 a-numeri.ads
+16K13*Numerics 32e17 17|4r10 115r37
+X 8 a-nudira.ads
+44k22*Discrete_Random 75e33 17|4w19 115r46
+50R9 Generator<27|63R9> 17|117r15[115]
+52V13 Random{17|114I14} 17|121s16[115]
+55U14 Reset<27|100p14> 17|120s9[115]
+X 9 a-nudira.adb
+53V16 Random[27|83]{17|114I14} 28|392b13[17|115]
+X 12 a-textio.ads
+49K13*Text_IO 471e16 17|3w10 3r35
+240U14*Get 17|85s21 91s21 98s21 104s21 232s9
+242U14*Put 17|79s13 84s21 90s21 97s21 103s21 137s21 139s21 142s21 177s21
+. 179s21 182s21 184s21 187s21 189s21 192s21 194s21 228s9 229s9 238s13 367s9
+. 369s9
+263U14*Put_Line 17|61s9 63s9 68s9 69s9 71s9 73s13 75s13 77s13 82s21 86s21
+. 88s21 92s21 95s21 99s21 101s21 105s21 122s9 145s13 169s13 170s13 198s21
+. 203s21 208s21 213s21 219s17 230s9 231s9 236s13 239s13 307s13 310s13 318s13
+. 356s5 357s5 358s5 359s5 360s5 361s5 464s9 465s9
+X 13 a-tiinio.ads
+56U14*Get 17|70s9[5|18] 172s13[5|18] 362s5[5|18]
+66U14*Put 17|78s13[5|18] 83s21[5|18] 89s21[5|18] 96s21[5|18] 102s21[5|18]
+. 178s21[5|18] 183s21[5|18] 188s21[5|18] 193s21[5|18] 237s13[5|18] 296s17[5|18]
+. 297s17[5|18] 300s17[5|18] 301s17[5|18] 304s17[5|18] 305s17[5|18] 368s9[5|18]
+. 403s21[5|18]
+X 15 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 17 main.adb
+5U11*Main 5b11 468l5 468t9
+7i5 P{integer} 70m14 72r12 74r15 78r18 80r27 374r12 396r15 426r15
+9b5 Game{boolean} 375r19 383m25 391m25 397r19 405m25 413m25 421m25 427r19
+. 433m25 441m25 449m25 457m25
+10i5 Menu{integer} 362m10 363r8 463r11
+11i5 Turno{integer} 237r18 368r14 376r20 385m21 385r30 386r23 393m21 398r20
+. 407m21 407r30 408r23 415m21 415r30 416r23 423m21 428r20 435m21 435r30 436r23
+. 443m21 443r30 444r23 451m21 451r30 452r23 459m21
+12a5 DadoResult{string} 123m9 235r35
+13a5 Temporal{string} 232m14 233r12
+14i5 Opc{integer} 172m18 174r16 196r19
+15b5 IsWinner{boolean}
+16i5 TempQNw{integer} 242m21 245m25 247r42 248r27 259m25 261r42 268m25 270r42
+. 281m21 284m25 286r37
+17i5 Meow{integer} 273m25 274m25 274r37 276r38 289m29 290m29 290r41 291r41
+19i5 l{integer} 130r23 131r27 132r54 132r69 133r26 133r51 134r45 134r60 135r26
+. 135r51
+20i5 X{integer}
+21i5 Y{integer}
+23i5 Var{integer} 153r25 155r25 157r25 159r25 235m13 243r38 248r37 249m25
+. 249r32 250r38 257r34 264r34 266r34 279r34 282r38 299r34 303r34
+25a5 P1{string} 85m26 86r57 152r15 175r27 197r27 240r23 328r19 377r43 378r32
+. 379r37 380r44 381r34 382r31 399r43 400r37 401r44 402r34 404r31 429r43 430r37
+. 431r44 432r31
+26a5 P2{string} 91m26 92r57 154r18 180r30 201r30 298r26 334r22 387r43 388r37
+. 389r44 390r31 409r43 410r37 411r44 412r31 437r43 438r37 439r44 440r31
+27a5 P3{string} 98m26 99r57 156r18 185r30 206r30 302r26 340r22 417r43 418r37
+. 419r44 420r31 445r43 446r37 447r44 448r31
+28a5 P4{string} 104m26 105r57 158r18 190r30 211r30 346r22 453r43 454r37 455r44
+. 456r31
+30i5 Saldo1{integer} 176m21 176r31 178r26
+31i5 Saldo2{integer} 181m21 181r31 183r26
+32i5 Saldo3{integer} 186m21 186r31 188r26
+33i5 Saldo4{integer} 191m21 191r31 193r26
+36i5 Cont1{integer} 153m9 153r17 329r16 329r32 331r19
+37i5 Cont2{integer} 155m9 155r17 299m17 299r26 335r16 335r32 337r19
+38i5 Cont3{integer} 157m9 157r17 303m17 303r26 341r16 341r32 343r19
+39i5 Cont4{integer} 159m9 159r17 347r16 347r32 349r19
+42i5 Px1{integer} 199m21 241r33 241r45 242r32 243m21 243r32 244r24 245r40
+. 246m25 251m25 252r27 253m25 256r23 261m25 261r36 263r23 265r35 266m21 266r28
+. 270m25 270r36 272r24 273r38 275m25 278r23 280r23 286m25 286r31 288r28 289r42
+. 291m29 296r22 377r33 379r41 380r34 381r37 399r33 400r41 401r34 402r37 429r33
+. 430r41 431r34
+43i5 Py1{integer} 200m21 241r20 247m25 247r36 250m25 250r32 254m25 254r31
+. 256r35 257m21 257r28 258r24 259r36 260m25 263r35 264m21 264r28 265r23 267r24
+. 268r36 269m25 276m25 276r32 278r36 279m21 279r28 280r36 281r32 282m21 282r32
+. 283r24 284r40 285m25 292m29 297r22 377r38 379r46 380r39 381r41 399r38 400r46
+. 401r39 402r41 429r38 430r46 431r39
+45i5 Px2{integer} 204m21 300r22 387r33 388r41 389r34 409r33 410r41 411r34
+. 437r33 438r41 439r34
+46i5 Py2{integer} 205m21 301r22 387r38 388r46 389r39 409r38 410r46 411r39
+. 437r38 438r46 439r39
+48i5 Px3{integer} 209m21 304r22 417r33 418r41 419r34 445r33 446r41 447r34
+49i5 Py3{integer} 210m21 305r22 417r38 418r46 419r39 445r38 446r46 447r39
+51i5 Px4{integer} 214m21 453r33 454r41 455r34
+52i5 Py4{integer} 215m21 453r38 454r46 455r39
+54i5 Vp1{integer} 330m17 332m17 382r35 403r25 404r35 432r35
+55i5 Vp2{integer} 336m17 338m17 390r35 412r35 440r35
+56i5 Vp3{integer} 342m17 344m17 420r35 448r35
+57i5 Vp4{integer} 348m17 350m17 456r35
+59U15 Instrucciones 59b15 65l9 65t22 365s9
+66U15 SelectCharacter 66b15 111l9 111t24 364s9
+80i17 i{integer} 81r21 83r26 87r24 89r26 94r24 96r26 100r24 102r26
+113U15 dado 113b15 124l9 124t13 234s13
+114I14 randRange<integer> 115r63 118r15 122r54 123r23
+115K17 Rand_Int[8|44] 116r13
+117r9 gen{8|50R9[115]} 120r16 121r24
+118i9 num{114I14} 121m9 122r71 123r40
+126U15 PositionPlayer 126b15 127>9 127>27 127>44 147l9 147t23 379s21 388s21
+. 400s21 410s21 418s21 430s21 438s21 446s21 454s21
+127a9 Temp{string} 142r26
+127i27 px{integer} 141r24
+127i44 py{integer} 141r35
+130i13 i{integer} 132r20 132r30 132r64 133r21 134r31 134r41 135r37 135r47
+. 141r20
+131i17 j{integer} 132r40 132r50 133r37 133r47 133r61 134r21 134r55 135r21
+. 141r31
+149U15 Contadores 149b15 149>27 162l9 162t19 378s21
+149a27 Temp{string} 152r8 154r11 156r11 158r11
+164U15 PagaOCarcel 164b15 164>28 164>45 164>62 223l9 223t20 380s21 389s21
+. 401s21 411s21 419s21 431s21 439s21 447s21 455s21
+164i28 px{integer} 168r12
+164i45 py{integer} 168r23
+164a62 Temp{string} 175r20 180r23 185r23 190r23 197r20 201r23 206r23 211r23
+225U15 LanzarDado 225b15 225>27 225>44 225>61 313l9 313t19 377s21 387s21
+. 399s21 409s21 417s21 429s21 437s21 445s21 453s21
+225i27 px{integer}
+225i44 py{integer}
+225a61 Temp{string} 229r14 240r16 298r19 302r19
+315V14 IsWin{boolean} 315b14 315>21 315>39 323l9 323t14 382s24 390s24 404s24
+. 412s24 420s24 432s24 440s24 448s24 456s24
+315a21 Temp{string} 318r40
+315i39 Vp{integer} 317r12
+325U15 ContarWeltas 325b15 325>29 325>47 325>64 353l9 353t21 381s21 402s21
+325a29 Temp{string} 328r12 334r15 340r15 346r15
+325i47 px{integer}
+325i64 py{integer}
+X 27 s-rannum.ads
+75V13*Random{15|74M9} 28|221i21
+76V13*Random{15|77M9} 28|221i21
+
