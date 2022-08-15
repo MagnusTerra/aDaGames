@@ -1,0 +1,91 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U buscaminas%b		main.adb		cb07c7d2 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-charac.ads		20210601075304 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210601075304 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-inteio.ads		20210601075304 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-string.ads		20210601075304 90ac6797 ada.strings%s
+D a-strfix.ads		20210601075304 d07c346e ada.strings.fixed%s
+D a-strmap.ads		20210601075304 e8bb714a ada.strings.maps%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiinio.ads		20210601075304 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D main.adb		20220815184459 652dc942 buscaminas%b
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r19 1r40 2r5 2r18 2r39
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 15|1w23 2r22
+X 8 a-string.ads
+16K13*Strings 35e16 15|1r44 2r43
+X 9 a-strfix.ads
+18K21*Fixed 251e22 15|1w52 2r51
+X 12 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+263U14*Put_Line 15|10s7 13s10 14s10 16s13 19s10 22s13 25s10 26s10 28s13 31s10
+. 34s13 37s10 38s10 41s13 44s10 45s10 47s13 50s10 53s13 56s10 57s10 59s13
+. 62s10 65s13 68s10 69s10 72s13 75s10 76s10 78s13 81s10 84s13 87s10 88s10
+. 90s13 93s10 96s13 99s10 100s10 103s13 106s10 107s10 108s10 110s13 113s10
+. 116s13 119s10 125s7
+X 13 a-tiinio.ads
+56U14*Get 15|11s7[5|18] 17s13[5|18] 29s13[5|18] 48s13[5|18] 60s13[5|18] 79s13[5|18]
+. 91s13[5|18] 111s13[5|18]
+66U14*Put 15|21s13[5|18] 33s13[5|18] 40s13[5|18] 52s13[5|18] 64s13[5|18]
+. 71s13[5|18] 83s13[5|18] 95s13[5|18] 102s13[5|18] 115s13[5|18]
+X 15 main.adb
+4U11*Buscaminas 4b11 128l5 128t15
+5a4 arreglo(integer) 17m17 17r17 21r17 29m17 29r17 33r17 40r17 48m17 48r17
+. 52r17 60m17 60r17 64r17 71r17 79m17 79r17 83r17 91m17 91r17 95r17 102r17
+. 111m17 111r17 115r17 124r17
+6b4 valor{boolean} 9r10
+7i4 valoringreso{integer} 11m11 12r10 24r13 36r13 43r13 55r13 67r13 74r13
+. 86r13 98r13 105r13 121r17 122r17 123r17
+15i14 i{integer} 17r25
+20i14 i{integer} 21r25
+27i14 i{integer} 29r25
+32i14 i{integer} 33r25
+39i14 i{integer} 40r25
+46i14 i{integer} 48r25
+51i14 i{integer} 52r25
+58i14 i{integer} 60r25
+63i14 i{integer} 64r25
+70i14 i{integer} 71r25
+77i14 i{integer} 79r25
+82i14 i{integer} 83r25
+89i14 i{integer} 91r25
+94i14 i{integer} 95r25
+101i14 i{integer} 102r25
+109i14 i{integer} 111r25
+114i14 i{integer} 115r25
+
